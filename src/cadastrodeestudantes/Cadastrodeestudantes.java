@@ -5,7 +5,8 @@
 package cadastrodeestudantes;
 
 /**
- *
+ * Luiz Felipe Medeiros Da Costa 06003497
+ * Raphael de Castro Cardoso Loureiro 06003766
  * @author Felipe
  */
 public class Cadastrodeestudantes {
