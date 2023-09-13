@@ -31,7 +31,7 @@ public class InterfaceUsuario {
             System.out.print("Digite a opção: ");
 
             int opcao = scanner.nextInt();
-            scanner.nextLine(); // Consumir a nova linha após o número
+            scanner.nextLine();
 
             switch (opcao) {
                 case 1:
