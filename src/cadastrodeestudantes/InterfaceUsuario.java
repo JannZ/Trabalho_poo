@@ -13,27 +13,6 @@ import java.util.Scanner;
 public class InterfaceUsuario {
     private GerenciadorEstudantes gerenciadorEstudantes;
     private Scanner scanner;
-
-    public final static void clearConsole()
-{
-    try
-    {
-        final String os = System.getProperty("os.name");
-
-        if (os.contains("Windows"))
-        {
-            Runtime.getRuntime().exec("cls");
-        }
-        else
-        {
-            Runtime.getRuntime().exec("clear");
-        }
-    }
-    catch (final Exception e)
-    {
-        //  Handle any exceptions.
-    }
-}
     
     
     public InterfaceUsuario() {
@@ -69,7 +48,6 @@ public class InterfaceUsuario {
                     String endereco = scanner.nextLine();
                     Estudantes estudante = new Estudantes(matricula, nome, email, telefone, endereco);
                     gerenciadorEstudantes.adicionarEstudante(estudante);
-                    clearConsole();
                     System.out.println("Estudante adicionado com sucesso.");
                     break;
                 case 2:

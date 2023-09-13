@@ -32,7 +32,7 @@ public class GerenciadorEstudantes {
 
     public void excluirEstudante(int matricula) {
         Estudantes estudante = localizarEstudante(matricula);
-        if (estudante != null) {
+        if (estudante != null) {       
             estudantes.remove(estudante);
         }
     }
